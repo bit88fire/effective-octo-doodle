@@ -18,15 +18,56 @@
             #stories5 {padding: 12px;}
             
 			
-            h1 {text-align: center;font-family: monospace;padding:0 12px; padding-top: 10px; padding-bottom: 15px;border-bottom:12px solid #222;font-size:24px;height:56px;line-height:56px;margin-bottom: 0;white-space: nowrap;text-overflow: ellipsis;overflow:hidden;}
+            h1 {text-align: center;font-family: monospace;padding:0 12px; padding-top: 10px; padding-bottom: 15px;font-size:24px;height:56px;line-height:56px;margin-bottom: 0;white-space: nowrap;text-overflow: ellipsis;overflow:hidden;}
 			h1.Snapgram {background: #fff;color:#333;}
+			h1:before {
+ background: linear-gradient(to right, 
+      #f9d002  20%, 
+      #fa332c  20%, 
+      #fa332c  40%, 
+      #258fd9   40%, 
+      #258fd9   60%, 
+     #fa8ca7 60%, 
+      #fa8ca7 80%, 
+      #00ab4d 80%,
+      #00ab4d 100%
+  );
+  position: absolute;
+  content: '';
+  height: 12px;
+  right: 0;
+  left: 0;
+  top: 0px;
+}
+			h1:after {
+ background: linear-gradient(to right, 
+      #f9d002  20%, 
+      #fa332c  20%, 
+      #fa332c  40%, 
+      #258fd9   40%, 
+      #258fd9   60%, 
+     #fa8ca7 60%, 
+      #fa8ca7 80%, 
+      #00ab4d 80%,
+      #00ab4d 100%
+  );
+  position: absolute;
+  content: '';
+  height: 12px;
+  right: 0;
+  left: 0;
+  top: 70px;
+}
+			
+			
 		
 			
-			.disclaimer {display:block;text-decoration: none !important;color:#fff;line-height: 1.5em;background: #222222;border-radius:0px;margin: 0px 0px 0;padding:12px 12px 12px 74px;font-size:13px;max-width: 460px;overflow: hidden;min-height: 50px;}
+			.disclaimer {display:block;text-decoration: none !important;color:#fff;line-height: 1.4em;background: #222222;border-radius:0px;margin: 0px 0px 0;padding:12px 12px 12px 74px;font-size:11px;max-width: 460px;overflow: hidden;min-height: 50px;}
 			.disclaimer img {float:left;margin-right: 12px;width:50px;position: absolute;margin-left:-62px;}
 			.disclaimer a {color: inherit !important;border:0;}
 			.disclaimer p {margin: 0;}
 			.disclaimer p + p {margin-top: 1.25em}
+			.disclaimer h2 {color:#fff; font-size:14px; line-height: 0.2em; margin-top: 7px;}
 			
             .skin {text-transform: uppercase;white-space: nowrap;overflow: hidden;font-weight: bold;position: absolute;z-index: 10;left:0;right:0;bottom: 0;background: #fff;font-size:16px;padding:12px;color:#fff;background:#333;}
 			.skin select {background: #fff; font-size:inherit;text-transform: none; max-width: 30%;}
@@ -55,16 +96,17 @@
 		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
 			<img src="ICON.png">
 			
-			<p>This a demonstration of <strong>zuck.js</strong> javascript library.</p>
-			<p>Not associated with Facebook, Instagram, WhatsApp or Snapchat.</p>
+			<h2><strong>zuck.js</strong></h2>
+			<p> javascript library.<br>TEST TEST TEST.</p>
+		
 		</a>
 		
 		<div id="stories"></div>
 		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
 			<img src="ICON.png">
 			
-			<p>This a demonstration of <strong>zuck.js</strong> javascript library.</p>
-			<p>Not associated with Facebook, Instagram, WhatsApp or Snapchat.</p>
+					<p>This a demonstration of <strong>zuck.js</strong> javascript library.<br>TEST TEST TEST.<br>TEST TEST TEST.</p>
+
 		</a>
 		
 		<div id="stories2"></div>
@@ -72,13 +114,12 @@
 		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
 			<img src="ICON.png">
 			
-			<p>This a demonstration of <strong>zuck.js</strong> javascript library.</p>
-			<p>Not associated with Facebook, Instagram, WhatsApp or Snapchat.</p>
+					<p>This a demonstration of <strong>zuck.js</strong> javascript library.<br>TEST TEST TEST.<br>TEST TEST TEST.</p>
+
 		</a>
 		
 		<div id="stories3"></div>
 		
-<br><br><br>
 		
 
       
