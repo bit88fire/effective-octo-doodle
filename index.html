@@ -10,6 +10,9 @@
             body {font-family:'Roboto', sans-serif;font-size:14px;padding:0;margin:0;color:#333}
             #stories {padding: 12px;}
             #stories2 {padding: 12px;}
+            #stories3 {padding: 12px;}
+            #stories4 {padding: 12px;}
+            #stories5 {padding: 12px;}
 			
             h1 {text-align: center;font-family: monospace;padding:0 12px;border-bottom:1px solid #ddd;font-size:24px;height:56px;line-height:56px;margin-bottom: 0;white-space: nowrap;text-overflow: ellipsis;overflow:hidden;}
 			h1.Snapgram {background: #fff;color:#333;}
@@ -25,7 +28,10 @@
 			.skin select {background: #fff; font-size:inherit;text-transform: none; max-width: 30%;}
 			
 			#stories {max-width: 500px;margin:0 auto;}
-						#stories2 {max-width: 500px;margin:0 auto;}
+			#stories2 {max-width: 500px;margin:0 auto;}
+			#stories3 {max-width: 500px;margin:0 auto;}
+			#stories4 {max-width: 500px;margin:0 auto;}
+			#stories5 {max-width: 500px;margin:0 auto;}
 
 		
 			@media (min-width: 524px){
@@ -54,9 +60,37 @@
 			
 			<p>This a demonstration of <strong>zuck.js</strong> javascript library.</p>
 			<p>Not associated with Facebook, Instagram, WhatsApp or Snapchat.</p>
-		</a><br>
+		</a>
 		
 		<div id="stories2"></div>
+		
+		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
+			<img src="ICON.png">
+			
+			<p>This a demonstration of <strong>zuck.js</strong> javascript library.</p>
+			<p>Not associated with Facebook, Instagram, WhatsApp or Snapchat.</p>
+		</a>
+		
+		<div id="stories3"></div>
+		
+		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
+			<img src="ICON.png">
+			
+			<p>This a demonstration of <strong>zuck.js</strong> javascript library.</p>
+			<p>Not associated with Facebook, Instagram, WhatsApp or Snapchat.</p>
+		</a>
+		
+		<div id="stories4"></div>
+		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
+			<img src="ICON.png">
+			
+			<p>This a demonstration of <strong>zuck.js</strong> javascript library.</p>
+			<p>Not associated with Facebook, Instagram, WhatsApp or Snapchat.</p>
+		</a>
+		
+		<div id="stories5"></div>
+		
+		
 
       
 		
@@ -181,6 +215,286 @@
 
 
 	var stories = new Zuck('stories2', {
+					backNative: true,
+                    previousTap: true,
+					autoFullScreen: skins[skin]['autoFullScreen'],
+					skin: skin,
+					avatars: skins[skin]['avatars'],
+					list: skins[skin]['list'],
+                    cubeEffect: skins[skin]['cubeEffect'],
+					localStorage: true,
+					stories: [
+						{
+							id: "ramon",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/1.jpg",
+							name: "Ramon",
+							link: "https://ramon.codes",
+							items: [
+								Zuck.buildItem("ramon-1", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", '', false, false, ),
+								Zuck.buildItem("ramon-2", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.jpg", '', false,  false, ),
+								Zuck.buildItem("ramon-3", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", 'https://ramon.codes', 'Visit my Portfolio', false, )
+							]
+						},
+						{
+							id: "gorillaz",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false,),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false,),
+							]
+						},
+						{
+							id: "gorillaz2",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz3",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz4",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz5",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz6",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "riversquomo",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/5.jpg",
+							name: "Cuomo",
+							link: "",
+							items: [
+								Zuck.buildItem("riverscuomo", "photo", 10, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg", '', false, false,)
+							]
+						}
+					]
+				});
+
+
+var stories = new Zuck('stories3', {
+					backNative: true,
+                    previousTap: true,
+					autoFullScreen: skins[skin]['autoFullScreen'],
+					skin: skin,
+					avatars: skins[skin]['avatars'],
+					list: skins[skin]['list'],
+                    cubeEffect: skins[skin]['cubeEffect'],
+					localStorage: true,
+					stories: [
+						{
+							id: "ramon",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/1.jpg",
+							name: "Ramon",
+							link: "https://ramon.codes",
+							items: [
+								Zuck.buildItem("ramon-1", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", '', false, false, ),
+								Zuck.buildItem("ramon-2", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.jpg", '', false,  false, ),
+								Zuck.buildItem("ramon-3", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", 'https://ramon.codes', 'Visit my Portfolio', false, )
+							]
+						},
+						{
+							id: "gorillaz",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false,),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false,),
+							]
+						},
+						{
+							id: "gorillaz2",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz3",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz4",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz5",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz6",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "riversquomo",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/5.jpg",
+							name: "Cuomo",
+							link: "",
+							items: [
+								Zuck.buildItem("riverscuomo", "photo", 10, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg", '', false, false,)
+							]
+						}
+					]
+				});
+
+var stories = new Zuck('stories4', {
+					backNative: true,
+                    previousTap: true,
+					autoFullScreen: skins[skin]['autoFullScreen'],
+					skin: skin,
+					avatars: skins[skin]['avatars'],
+					list: skins[skin]['list'],
+                    cubeEffect: skins[skin]['cubeEffect'],
+					localStorage: true,
+					stories: [
+						{
+							id: "ramon",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/1.jpg",
+							name: "Ramon",
+							link: "https://ramon.codes",
+							items: [
+								Zuck.buildItem("ramon-1", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", '', false, false, ),
+								Zuck.buildItem("ramon-2", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.jpg", '', false,  false, ),
+								Zuck.buildItem("ramon-3", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", 'https://ramon.codes', 'Visit my Portfolio', false, )
+							]
+						},
+						{
+							id: "gorillaz",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false,),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false,),
+							]
+						},
+						{
+							id: "gorillaz2",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz3",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz4",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz5",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "gorillaz6",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
+							name: "Gorillaz",
+							link: "",
+							items: [
+								Zuck.buildItem("gorillaz-1", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg", '', false, false, ),
+								Zuck.buildItem("gorillaz-2", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg", '', false, false, ),
+							]
+						},
+						{
+							id: "riversquomo",
+							photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/5.jpg",
+							name: "Cuomo",
+							link: "",
+							items: [
+								Zuck.buildItem("riverscuomo", "photo", 10, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg", '', false, false,)
+							]
+						}
+					]
+				});
+
+var stories = new Zuck('stories5', {
 					backNative: true,
                     previousTap: true,
 					autoFullScreen: skins[skin]['autoFullScreen'],
