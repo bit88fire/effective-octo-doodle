@@ -21,8 +21,14 @@
             #stories4 {padding: 12px;}
             #stories5 {padding: 12px;}
             
-			
-            h1 {background: #f2ede7;color:#222;text-align: center;font-family: monospace;padding:0 12px; padding-top: 12px; padding-bottom: 15px;font-size:28px;height:56px;line-height:56px;margin-bottom: 0;white-space: nowrap;text-overflow: ellipsis;overflow:hidden;}
+            .boopbor {border-left: 8px solid #222; border-right: 8px solid #222; margin: 0 auto; max-width: 500px; padding: 15px;}
+            
+			            .boopborend {border-left: 8px solid #222; border-right: 8px solid #222; border-bottom: 8px solid #222; margin: 0 auto; max-width: 500px; padding: 15px;}
+
+			            .boopborall {border: 8px solid #222; margin: 0 auto; max-width: 500px; padding: 15px; text-align: center; background: #fff;}
+
+
+            h1 {background: #fff;color:#222;text-align: center;font-family: monospace;padding:0 12px; padding-top: 12px; padding-bottom: 15px;font-size:28px;height:56px;line-height:56px;margin-bottom: 0;white-space: nowrap;text-overflow: ellipsis;overflow:hidden;}
 			h1:before {
  background: linear-gradient(to right, 
       #f9d002  20%, 
@@ -89,7 +95,7 @@
 
 		
 			@media (min-width: 524px){
-				.disclaimer {margin: 12px auto;}
+				.disclaimer {margin: 0px auto;}
 			}
 		</style>
         
@@ -101,7 +107,7 @@
     <body style="display:none">
         <h1 id="header">BOOM!</h1>
         <br>
-        <center><b>DISCOVER THINGS</b></center>
+        <div class="boopborall"><b>DISCOVER THINGS</b></div>
         <br>
 				
 		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
@@ -112,7 +118,9 @@
 		
 		</a>
 		
-		<div id="stories"></div>
+		<div class="boopbor"><div id="stories"></div></div>
+		
+		
 		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
 			<img src="ICON.png">
 			
@@ -120,7 +128,7 @@
 			<p> GREAT FOOD - GREAT PLACE - GREAT VALUE<br>($$+)</p>
 		</a>
 		
-		<div id="stories2"></div>
+		<div class="boopbor"><div id="stories2"></div></div>
 		
 		<a href="https://ramon.codes/projects/zuck.js" target="_blank" class="disclaimer">
 			<img src="ICON.png">
@@ -129,7 +137,7 @@
 			<p> CAFÉ / BAR<br>($$$+)</p>
 		</a>
 		
-		<div id="stories3"></div>
+		<div class="boopborend"><div id="stories3"></div></div>
 		
 		
 
